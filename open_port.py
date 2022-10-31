@@ -34,6 +34,6 @@ def change_status(port, action):
         print('[-] This script does not support linux yet')
 
 
-print('[+] This Script is coded By Shazil Sattar And Haris Butt')
+print('[+] This Script is coded By Shazil Sattar')
 option = get_arguments()
 change_status(option.port, option.action)
